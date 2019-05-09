@@ -10,3 +10,7 @@ https://mugenarchive.com/forums/faq.php
 
 this is VSelect for Character adding
 https://mugenarchive.com/forums/downloads.php?do=file&id=6860-vselect-tunglashor
+
+
+fighter Factory Classic 
+http://fighterfactory.virtualltek.com/ffc-1-2-0
