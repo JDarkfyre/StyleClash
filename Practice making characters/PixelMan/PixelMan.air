@@ -2,9 +2,12 @@
 ; see docs/air.txt for more information
 ; Note: Putting -1,0 for the sprite means it does not draw anything
 ;---------------------------------------------------------------------------
-; Standing Animation
+;Standing Animation
 [Begin Action 0]
-20,1, 0,0, 10
+1,0, 0,0, 10
+1,1, 0,0, 10
+1,2, 0,0, 10
+1,3, 0,0, 10
 
 
 ; Turning
