@@ -77,19 +77,19 @@ font6.height = 13
  ;Music will continue to play between screens if the files names
  ;are the same, and both BGMs are specified to loop.
   ;Music to play at title screen.
-title.bgm = 
+title.bgm = data/Stylemusic.mp3
 title.bgm.volume = 100    ;volume scaling factor in percent. 100 is default
 title.bgm.loop = 1        ;Set to 0 to prevent looping
 title.bgm.loopstart = 
 title.bgm.loopend = 
   ;Music to play at char select screen.
-select.bgm = 
+select.bgm = data/Stylemusic.mp3
 select.bgm.volume = 
 select.bgm.loop = 1
 select.bgm.loopstart =
 select.bgm.loopend = 
   ;Music to play at versus screen.
-vs.bgm = 
+vs.bgm = data/Stylemusic.mp3
 vs.bgm.volume = 
 vs.bgm.loop = 0
 vs.bgm.loopstart =

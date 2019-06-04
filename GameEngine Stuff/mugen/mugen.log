@@ -2,12 +2,12 @@
 M.U.G.E.N ver 1.00 (2011.01.18) status log
 ------------------------------------------
 Parsing command line...
-Command line: E:\Dekstop\mugen\mugen.exe
+Command line: C:\Users\justin.niedens\Downloads\GameEngine Stuff\mugen\mugen.exe
 Parse command line OK
 Initializing...
 Allocating game variables
 Reading configuration file...OK
-Initializing timer...performance timer enabled...frequency 10000000...OK
+Initializing timer...performance timer enabled...frequency 3331195...OK
 Initializing keyboard...configuring...OK
 Initializing input engine...OK
 Initializing sound...Using SDL audio driver: dsound
@@ -22,7 +22,7 @@ Initializing font...OK
 Initializing game variables...OK
 Loading system fonts...OK
 Loading options...
-Initializing pads...failed
+Initializing pads...OK
 Reinitializing input engine...OK
 Remapping keys...OK
 Reinitializing input engine...OK
@@ -65,15 +65,143 @@ Initializing select screen...finding characters...OK
 
 Entering main loop
 Entering character select.
-attempting load and start...no BGM...attempting load and start...no BGM...Entering character select.
-attempting load and start...no BGM...Options Screen
+attempting load and start...attempting load of data/stylemusic.mp3...hooking mixer callback...
+success!
+starting BGM...
+attempting load and start...nothing to do!
+Loading character chars/Vincent/Vincent.def...
+  Loading info...OK
+  Loading cmd command set Vincent.cmd...OK
+  Loading cns Vincent.cns...OK
+  Loading cmd state entry Vincent.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Vincent.sff...OK
+  Loading anim Vincent.air...OK
+  Loading snd Vincent.snd...ERROR loading wave file 1, 1: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1, 4: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1, 5: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1, 1: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1, 2: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 1, 3: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 2, 3: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 2, 2: Unsupported sample size (only 8-bit or 16-bit supported)
+ERROR loading wave file 3, 1: Unsupported sample size (only 8-bit or 16-bit supported)
+SND file loaded with errors: Vincent.snd
+OK
+  Loading pals...(1,1)OK
+  1381 expressions (626 on trigger lines)
+Character Vincent.def loaded OK
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+End of game loop
+Total time: 79.00s
+Total frames: 4741 	Skipped frames: 0
+Avg game rate: 60.01
+Avg frame rate: 60.01
+
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Entering character select.
+attempting load and start...nothing to do!
+Options Screen
 Return from Options Screen
-attempting load and start...no BGM...Entering character select.
-attempting load and start...no BGM...Returned from main loop
+attempting load and start...nothing to do!
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+attempting load of sound/main_stage_music.mp3...success!
+prebuffering BGM...
+End of game loop
+Total time: 38.76s
+Total frames: 2327 	Skipped frames: 0
+Avg game rate: 60.04
+Avg frame rate: 60.04
+
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Entering character select.
+attempting load and start...nothing to do!
+attempting load and start...nothing to do!
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+End of game loop
+Total time: 121.12s
+Total frames: 7269 	Skipped frames: 0
+Avg game rate: 60.01
+Avg frame rate: 60.01
+
+attempting load and start...no BGM...attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+attempting load of sound/stylemusic...playback system not found for sound/stylemusic!success!
+End of game loop
+Total time: 104.88s
+Total frames: 6294 	Skipped frames: 0
+Avg game rate: 60.01
+Avg frame rate: 60.01
+
+attempting load and start...no BGM...attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+attempting load of sound/stylemusic...playback system not found for sound/stylemusic!success!
+End of game loop
+Total time: 81.16s
+Total frames: 4871 	Skipped frames: 0
+Avg game rate: 60.02
+Avg frame rate: 60.02
+
+attempting load and start...no BGM...attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+attempting load of sound/stylemusic...playback system not found for sound/stylemusic!success!
+End of game loop
+Total time: 78.41s
+Total frames: 4706 	Skipped frames: 0
+Avg game rate: 60.02
+Avg frame rate: 60.02
+
+attempting load and start...no BGM...attempting load and start...attempting load of data/stylemusic.mp3...success!
+starting BGM...
+Entering character select.
+attempting load and start...nothing to do!
+Returned from main loop
 Deinitializing...
-Frames      : 0
-Time elapsed: 72.250 sec
-ticks: 7225, tps: 100, start 39, end 7264
+Frames      : 30208
+Time elapsed: 1316.970 sec
+ticks: 131697, tps: 100, start 44, end 131741
 
 Clearing player cache...OK
 Freeing character info...OK
@@ -85,7 +213,14 @@ Deinitializing input...pad...keyboard...OK
 Removing callbacks...OK
 Deintializing timer...OK
 Deinitializing graphics...OK
-Deinitializing BGM...OK
+Deinitializing BGM...Cleaning up mixer callback...unhooking mixer callback...
+
+Mixer callback was entered 28347 times
+Mixer callback timing stats (last 28347 calls):
+	6.000000 median, 6.393163 avg, 5.085424 sample std. dev.
+Top 10 slowest times:	261 (1), 205 (1), 202 (1), 194 (1), 186 (1), 184 (1), 168 (1), 152 (1), 150 (1), 140 (2)
+Top 10 fastest times:	1 (19), 2 (1600), 3 (3320), 4 (3075), 5 (4245), 6 (4129), 7 (2875), 8 (5195), 9 (2132), 10 (471)
+OK
 Deinitializing sound...OK
 Successful program termination.
 
